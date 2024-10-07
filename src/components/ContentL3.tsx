@@ -1,7 +1,7 @@
 import React from 'react'
 import starsBg from '/public/assets/stars.png'
 
-const ContentL2 = () => {
+const ContentL3 = () => {
   return (
     <section style={{
       backgroundImage: `url(${starsBg.src})`
@@ -189,4 +189,4 @@ astronomical units, AU)
   )
 }
 
-export default ContentL2
+export default ContentL3
