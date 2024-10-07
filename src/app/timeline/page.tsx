@@ -1,5 +1,4 @@
 import PartS1 from '@/components/Times'
-import PartS from '@/components/Times'
 import PartS2 from '@/components/Times2'
 import PartS3 from '@/components/Times3'
 import TitleS1 from '@/components/TitleS1'
