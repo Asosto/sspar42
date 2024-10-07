@@ -8,7 +8,7 @@ export const Header = () => {
       <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl max-w-2xl mx-auto backdrop-blur">
         <div>
       <div className='justify-center items-center border-white/15'>
-       <img src='/assets/logoT.png' className="h-12 w-12 ml-8" />
+       <img src='/assets/logo7.png' className="h-12 w-12 ml-8" />
          </div>
         </div>
       <div className='hidden md:block'>
