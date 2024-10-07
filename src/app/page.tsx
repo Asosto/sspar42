@@ -9,7 +9,7 @@ import Hero from "@/sections/Hero";
 export default function Home() {
   return<>
   <Header/><Hero/><About/>
-  <div className="mt-[1400px]"><Footer /></div>
+  <div className="mt-[1500px]"><Footer /></div>
   </>
   ;
 

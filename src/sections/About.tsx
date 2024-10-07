@@ -1,5 +1,6 @@
 import React from 'react'
 import starsBg from "/public/assets/stars.png"
+import Image from 'next/image'
 
 
 const About = () => {
@@ -90,7 +91,7 @@ const About = () => {
           </div> 
           <div className="items-center bg-gray-50 rounded-lg shadow sm:flexrelative py-2 px-3 rounded-lg font-medium text-sm bg-gradient-to-b from-[#62547a] to-[#190833] bg-[radial-gradient(circle, #ffffff, rgba(255, 255, 255, 0))] shadow-[0px_0px_12px_#8c45ff]">
               <a href="#">
-                  <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/assets/andres.jpg" alt="Sofia Avatar"/>
+                  <Image width={50} height={50} className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/assets/andres.jpg" alt="Sofia Avatar"/>
               </a>
               <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -112,7 +113,7 @@ const About = () => {
           </div> 
           <div className="items-center bg-gray-50 rounded-lg shadow sm:flexrelative py-2 px-3 rounded-lg font-medium text-sm bg-gradient-to-b from-[#62547a] to-[#190833] bg-[radial-gradient(circle, #ffffff, rgba(255, 255, 255, 0))] shadow-[0px_0px_12px_#8c45ff]">
               <a href="#">
-                  <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/assets/javi.jpg" alt="Michael Avatar"/>
+                  <Image width={50} height={50} className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/assets/javi.jpg" alt="Michael Avatar"/>
               </a>
               <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -130,7 +131,7 @@ const About = () => {
           </div> 
           <div className="items-center bg-gray-50 rounded-lg shadow sm:flexrelative py-2 px-3 rounded-lg font-medium text-sm bg-gradient-to-b from-[#62547a] to-[#190833] bg-[radial-gradient(circle, #ffffff, rgba(255, 255, 255, 0))] shadow-[0px_0px_12px_#8c45ff]">
               <a href="#">
-                  <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/assets/ale.jpg" alt="Sofia Avatar"/>
+                  <Image width={50} height={50} className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/assets/ale.jpg" alt="Sofia Avatar"/>
               </a>
               <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
